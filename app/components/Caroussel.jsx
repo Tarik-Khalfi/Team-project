@@ -14,7 +14,7 @@ const Caroussel = () => {
           What people say about Team
         </div>
         <Swiper
-          slidesPerView={4}
+          slidesPerView={1}
           spaceBetween={300}
           pagination={{
             clickable: true,
@@ -33,7 +33,7 @@ const Caroussel = () => {
               spaceBetween: 40,
             },
             1024: {
-              slidesPerView: 5,
+              slidesPerView: 4,
               spaceBetween: 50,
             },
           }}
